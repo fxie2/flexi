@@ -1,0 +1,14 @@
+# Thomas Bolemann, University of Stuttgart
+# Periodic hill, Re = 2800
+# 4th order Discontinuous Galerkin Spectral Element Scheme
+# 8192 elements, 524288 DOF
+VARIABLES = "CoordinateX"
+ "CoordinateY"
+ "u"
+ "v"
+ "uu"
+ "vv"
+ "uv"
+ "TKE"
+ZONE
+DT=(DOUBLE,DOUBLE,DOUBLE,DOUBLE,DOUBLE,DOUBLE)
